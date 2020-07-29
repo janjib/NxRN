@@ -1,0 +1,522 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 1200px;
+}
+header{
+  width:100%;
+  margin:auto;
+  margin-top: 5px;
+  margin-left: 30px;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  padding-top: 20px;
+  padding-left: 500px;
+  padding-right: 10px;
+}
+
+.navigation{
+  display: flex;
+  justify-content: space-between;
+}
+header nav ul li{
+  margin-left: 5px;
+  margin-right: 5px;
+  list-style: none;
+  font-family: 'Bangers', cursive;
+
+}
+header nav ul li a{
+  list-style: none;
+  text-decoration: none;
+  color:#FFAF4F;
+  font-size: 20px;
+}
+.logo h1{
+  font-family: 'Bangers', cursive;
+  color:#FFAF4F;
+  padding-top: 15px;
+  font-size: 3.5rem;
+}
+.mainpage-image img{
+ width:40%;
+ max-height:50%;
+ position: absolute;
+ transform: translate(495px,210px);
+ z-index: -1;
+ border-radius: 65px;
+background: #fafafa;
+box-shadow:  5px 5px 10px #dfdfdf,
+             -5px -5px 10px #ffffff;
+}
+.mainpage{
+  width: 80%;
+  margin: auto;
+  min-height: 700px;
+
+}
+.mainpage-text{
+padding-top: 190px;
+padding-left: 80px;
+}
+.mainpage-text p{
+  font-family: 'Bangers', cursive;
+  font-size: 30px;
+  color:#FFAF4F;
+}
+.mainpage-text h2{
+  font-family: 'Bangers', cursive;
+  font-size: 60px;
+  color: #ed733f;
+}
+.mainpage-button button{
+  margin-top: 40px;
+  margin-left: 160px;
+  border:1px solid white;
+  border-radius: 20px;
+  padding: 10px 10px 10px 10px;
+  color:#ed733f;
+  background-color: #ed733f;
+  font-size: 20px;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: bolder;
+  border-radius: 40px;
+background: #fafafa;
+box-shadow:  8px 8px 3px #e6e6e6,
+             -8px -8px 3px #ffffff;
+}
+#about-me{
+  height:550px;
+  background: white;
+  margin-bottom: 10px;
+}
+.about-me-text{
+  width: 80%;
+  margin: auto;
+}
+.about-me-text h2{
+  color: #ed733f;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-size: 50px;
+  font-family: 'Bangers', cursive;
+  letter-spacing: 10px;
+
+}
+.about-me-text h3{
+  font-size: 30px;
+   font-family: 'Bangers', cursive;
+   text-align: center;
+  color:#FFAF4F;
+  letter-spacing: 5px;
+  padding:30px 0 30px 0;
+}
+.about-me-text p{
+  font-size: 25px;
+  font-weight: bolder;
+  color:#FFAF4F;
+  font-family: 'Varela Round', sans-serif;
+  text-align: center;
+  letter-spacing: 4px;
+  line-height: 30px;
+  border-radius: 50px;
+background: #fafafa;
+box-shadow:  9px 9px 18px #ebebeb,
+             -9px -9px 18px #ffffff;
+padding: 5px 2px 5px 2px;
+}
+.about-me-image img{
+  position: absolute;
+  transform: translate(0px,-650px);
+  max-height:25%;
+  max-width:25%;
+z-index: 1;
+border:14px solid white;
+border-radius: 21px;
+background: #ffffff;
+box-shadow:  5px 5px 13px #e3e3e3,
+             -5px -5px 13px #ffffff;
+
+}
+.about-me-image{
+  margin-left: 100px;
+  margin-top: 100px;
+}
+.service{
+  height: 121.76560121765601vh;
+  width:70%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.service h2{
+  text-align: center;
+  font-size: 45px;
+  font-family: 'Bangers', cursive;
+  margin-bottom: 60px;
+  color:#ed733f;
+  letter-spacing: 3px;
+
+}
+.poster{
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0px 150px 0px;
+}
+.poster-image{
+  align-items: center;
+  max-width: 40%;
+  max-height: 40%;
+}
+.poster h3{
+  text-align: center;
+  margin-bottom: 10px;
+  color:#ed733f;
+  font-family: 'Bangers', cursive;
+  letter-spacing: 2px;
+}
+.poster p{
+  text-align: center;
+  margin-bottom: 10px;
+  color:#FFAF4F;
+  font-family: 'Bangers', cursive;
+  line-height: : 30px;
+  letter-spacing: 2px;
+  font-size: 25px;
+}
+.poster hire,.poster button{
+
+  margin-top: 20px;
+  color:#ed733f;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  border: 1px solid white;
+  border-radius: 20px;
+  margin-left: 200px;
+  padding: 10px 10px 10px 10px;
+  max-width: 20%
+  margin:auto;
+
+}
+.poster .link{
+  color:#ed733f;
+  font-family: 'Bangers', cursive;
+  padding-top: 10px;
+  text-decoration: none;
+}
+.gallery{
+  margin-top: 70px;
+  height: 700px;
+}
+.gallery-title h4,.contact h4,.form-title h4{
+  text-align: center;
+  font-size: 40px;
+  margin: 10px 0 30px 0;
+  color:#ed733f;
+  font-family: 'Bangers', cursive;
+}
+.gallery-image{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.gallery-image img{
+  margin: 10px 30px 10px 30px;
+  border-radius: 21px;
+background: #ffffff;
+box-shadow:  28px 28px 9px #f2f2f2,
+             -28px -28px 9px #ffffff;
+}
+.call-image img{
+  max-height:25%;
+  max-width:25%;
+  float: right;
+}
+.call-image{
+  margin-left: 50px;
+
+}
+.contact{
+  height: 500px;
+  align-items: center;
+  text-align: center;
+  max-width: 80%;
+  margin: auto;
+}
+.contact ul {
+  list-style: none;
+  margin-top: 100px;
+  display: flex;
+  justify-content:center;
+  padding-left: 250px;
+}
+.contact ul li{
+  align-items: center;
+  text-align: center;
+  margin: 10px 20px 30px 20px;
+}
+.gmail-logo{
+  transform: translate(-150px,40px);
+}
+.gmail{
+  display: inline-block;
+  margin-left: 60px;
+}
+.gmail p{
+  color:#ed733f;
+  font-family: 'Bangers', cursive;
+  font-size: 30px;
+}
+header nav ul li:hover{
+text-decoration: underline;
+cursor: pointer;
+transform: translateY(4px);
+ color:#ed733f;
+}
+button:hover{
+  background-color: #ed733f;
+  color:white;
+  transform: translateY(4px);
+  cursor: pointer;
+}
+@keyframes colourful {
+  0%{
+    color: #ff0000;
+  }
+  25%{
+    color: #ffa500;
+  }
+  50%{
+    color: #008000;
+  }
+  75%{
+    color: #0000ff;
+  }
+  100%{
+    color: #ee82ee;
+  }
+}
+.color{
+  animation-name: colourful;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+}
+.form{
+  height: 120vh;
+
+}
+.form-title,.form-submission,.button{
+  display:flex;
+  justify-content:center;
+}
+.form-submission input,.form-submission label{
+  margin:1rem;
+}
+.form-submission label{
+    font-family: 'Varela Round', sans-serif;
+    color:#ed733f;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.form-submission input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 0.2rem solid #ed733f;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1.2rem;
+  color:  #ed733f;
+}
+.every-form{
+  display: inline-block;
+  width: 100%;
+  margin:0.5rem;
+}
+.button{
+  margin: 4rem;
+}
+#comment{
+  height: 30vh;
+  width: 100%;
+  border: 0.2rem solid #ed733f;
+  font-size: 1.5rem;
+  color:  #ed733f;
+}
+.submit{
+  margin-top: 20px;
+  color:#ed733f;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 10px 10px 10px 10px;
+  max-width: 20%
+  margin:auto;
+}
+.submit:hover{
+  background-color: #ed733f;
+  color:white;
+  transform: translateY(4px);
+  cursor: pointer;
+}
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 850px) {
+    header nav ul {
+      display: flex;
+      padding-top: 50px;
+    }
+    header nav ul li a{
+      font-size: 30px;
+    }
+    .mainpage-text p{
+      font-size: 50px;
+    }
+    .mainpage-button button{
+      font-size: 30px;
+    }
+    .mainpage-image img{
+     width:40%;
+     max-height:50%;
+     position: absolute;
+     transform: translate(495px,250px);
+     z-index: -1;
+     border-radius: 65px;
+    background: #fafafa;
+    box-shadow:  5px 5px 10px #dfdfdf,
+                 -5px -5px 10px #ffffff;
+    }
+    .about-me-text h3{
+      font-size: 40px;
+      letter-spacing: 8px;
+    }
+    .about-me-text p{
+      font-size: 25px;
+      letter-spacing: 4px;
+        line-height: 30px;
+    }
+    .about-me-image img{
+      position: absolute;
+      transform: translate(0px,-6000px);
+      max-height:25%;
+      max-width:25%;
+    z-index: 1;
+    border:14px solid white;
+    border-radius: 21px;
+    background: #ffffff;
+    box-shadow:  5px 5px 13px #e3e3e3,
+                 -5px -5px 13px #ffffff;
+               }
+    .service{
+    max-height: 152.20700152207002vh
+    width:90%;
+    margin: auto;
+    display: block;
+                }
+  .service h2{
+  font-size: 55px;
+  letter-spacing: 5px;
+                }
+  .poster h3{
+  font-size: 35px;
+  letter-spacing: 5px;
+  }
+  .poster p{
+    line-height: : 25px;
+    letter-spacing: 2px;
+    font-size: 25px;
+  }
+  .poster hire,.poster button{
+    font-size: 30px;
+}
+.gallery-title h4,.contact h4{
+  font-size: 60px;
+}
+.call-image img{
+  max-height:35%;
+  max-width:35%;
+}
+.gmail{
+  display: inline-block;
+  margin-left: 240px;
+}
+.gmail p{
+  font-size: 40px;
+}
+.gmail-logo{
+  transform: translate(-180px,40px);
+}
+#about-me{
+  height:100.76560121765601vh;
+  background: white;
+  margin-bottom: 20px;
+}
+.poster-image{
+  width: 40%;
+  height: 25%;
+  margin-top: 20px;
+}
+.gallery{
+  margin-top: 20px;
+  padding-top: 10rem;
+}
+.menu-toggle{
+    display:block;
+    width:40px;
+    height: 40px;
+    margin:10px;
+    background: #ccc;
+    position: absolute;
+    transform: translateX(900px);
+    cursor: pointer;
+    text-align: center;
+    font-size: 30px;
+    color:#FFAF4F;
+  }
+  .menu-toggle::before{
+    content: '\f0c9';
+  font-family: fontAwesome;
+  line-height: 40px;
+  }
+  .menu-toggle.active::before{
+    content: '\f00d';
+  }
+  nav{
+    display: none;
+  }
+  nav.active{
+    display:block;
+    width:100%;
+    position: absolute;
+    transform: translate(-55px,10px);
+
+  }
+  nav.active ul{
+    display: block;
+  }
+  nav.active ul li a{
+    margin: 0px;
+  }
+  nav.active ul li{
+    margin: 10px;
+  }
+  .flag{
+    display: none;
+  }
+   nav.active ul li a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+  transform: translateY(4px);
+   color:#ed733f;
+  }
+}
